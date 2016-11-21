@@ -21,7 +21,7 @@ namespace BFH.Example._20161121
                 throw new ArgumentNullException(nameof(type));
             }
 
-            if(type.IsInterface)
+            if(!type.IsInterface)
             {
                 throw new ArgumentException("Argument " + nameof(type) + "is not an interface");
             }

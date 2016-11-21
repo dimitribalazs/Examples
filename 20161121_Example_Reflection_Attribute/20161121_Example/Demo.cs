@@ -20,6 +20,11 @@ namespace BFH.Example._20161121
 
         }
 
+        public Demo(int iParam)
+        {
+            PublicIntegerField = iParam;
+        }
+
 
         public int DoSomething(int intParam, string strParam, DateTime dateParam)
         {
